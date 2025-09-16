@@ -4,3 +4,17 @@
 
 
 */
+
+let nota = prompt("digite sua nota: ");
+
+
+if(nota >=5 ){
+console.log("voce esta aprovado ")
+
+}else if(nota <=5){
+    console.log("voce esta reprovado !!")
+
+}else if(nota==10){
+console.log("Parabens, voce tirou a nota maxima.")
+    
+}
