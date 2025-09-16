@@ -31,3 +31,4 @@ Faça os exercícios a seguir escrevendo código JavaScript a ser vinculado à s
 		- média de 8.5 a 10.0 = 25 pontos;
 		
 Faça um script em JavaScript que solicite a renda familiar e a média acadêmica do estudante, calcule e exiba qual seria a sua pontuação total para concorrer à bolsa de estudos.
+
