@@ -44,7 +44,7 @@ if(escolha == "s"){
 }else if(nivel ="doutorado"){
     alert("Vossa pessoa cujo possui tanto conhecimento lhe herdado tem 40 pontos a mais agora");
 }else{
-    alert("Voce nao possui nenhunm nivel")
+    alert("Voce nao possui nenhunm nivel");
 }
 
 
