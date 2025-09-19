@@ -22,20 +22,18 @@ os seguintes critérios são considerados com as respectivas pontuações:
 
 let experiencia = prompt()
 
-
 if(experiencia <= 5 ){
     alert("vc ganhou 10 pontos por ter alguns anos de experiencia")
 } else if( experiencia >= 5){
     alert("voce tem 20 pontos por ter mais de 5 anos de experiencia")
 }
 
-
 let escolha = prompt();
 let nivel = prompt();
 
 if(escolha == "s"){
     alert("sua resposta foi sim, agora responda por quantos anos:")
-} else if (nivel= "superior"){
+} else if (nivel = "superior"){
  console.log("voce tem mais 10 pontos agora");
 } else if(nivel = "pós-graduação"){
     alert(" voce possui mais 20 pontos agora");
