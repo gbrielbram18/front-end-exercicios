@@ -31,16 +31,21 @@ if(experiencia <= 5 ){
 let escolha = prompt();
 let nivel = prompt();
 
-if(escolha == "s"){
-    alert("sua resposta foi sim, agora responda por quantos anos:")
-} else if (nivel = "superior"){
+if(escolha === "s"){
+    prompt("sua resposta foi sim, agora responda por qual nivel correspodente:")
+
+} else if (nivel ===  "superior"){
  console.log("voce tem mais 10 pontos agora");
-} else if(nivel = "pós-graduação"){
+
+} else if(nivel ===  "pós-graduação"){
     alert(" voce possui mais 20 pontos agora");
-}else if(nivel ="mestrado"){
+
+}else if(nivel === "mestrado"){
     alert("vossa senhoria possui 30 pontos agora");
-}else if(nivel ="doutorado"){
+
+}else if(nivel === "doutorado"){
     alert("Vossa pessoa cujo possui tanto conhecimento lhe herdado tem 40 pontos a mais agora");
+
 }else{
     alert("Voce nao possui nenhunm nivel");
 }
